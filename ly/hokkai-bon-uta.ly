@@ -1,8 +1,10 @@
 \include "pre.ly"
+\language "english"
 
 \header {
   title = "北海盆唄"
   subtitle = "Hokkai Bon Uta"
+  composer = "北海道"
   meter = "2/4 二上り"
 }
 

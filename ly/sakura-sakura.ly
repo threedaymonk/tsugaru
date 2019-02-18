@@ -1,4 +1,5 @@
 \include "pre.ly"
+\language "english"
 
 \header {
   title = "さくらさくら"

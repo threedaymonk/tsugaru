@@ -13,7 +13,7 @@ clean:
 	rm -f pdf/*.pdf
 
 ly/%.ly: transcribed/%.ly
-	ruby lilypond-shamisen/convert.rb $< > $@.tmp
+	ruby lilypond-shamisen/convert/convert.rb $< > $@.tmp
 	mv $@.tmp $@
 
 pdf/%.pdf: ly/%.ly lib/pre.ly lilypond-shamisen/shamisen.ly

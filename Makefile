@@ -5,7 +5,7 @@ PDFS = $(patsubst ly/%.ly,pdf/%.pdf,$(LYS))
 
 .PHONY: convert pdfs clean
 
-pdfs: $(PDFS)
+pdfs: $(PDFS) convert
 
 convert: $(TO_CONVERT)
 

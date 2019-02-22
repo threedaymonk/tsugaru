@@ -3,7 +3,7 @@
 
 \header {
   title = "弥三郎節"
-  subtitle = "Yasaburo Bushi"
+  subtitle = "Yasaburō Bushi"
   composer = "青森県"
   meter = "2/4 二上り"
 }

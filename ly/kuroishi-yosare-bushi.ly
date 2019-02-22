@@ -4,6 +4,7 @@
 \header {
   title = "黒石よされ節"
   subtitle = "Kuroishi Yosare Bushi"
+  composer = "青森県"
   meter = "2/4 二上り"
 }
 

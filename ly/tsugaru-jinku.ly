@@ -64,7 +64,7 @@ song = {
   c'8 c' \sukui f'^\third ef'16 ef' \hajiki 
 
   c'8 c' \sukui c bf
-  <c g c'>4
+  <c g c'>2
 }
 
 \score {

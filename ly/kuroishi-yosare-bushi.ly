@@ -63,7 +63,7 @@ song = {
 
   g8. f16 g8. <c g c'>16
 
-  <c g c'>4 \fermata
+  <c g c'>2 \fermata
 }
 
 \score {

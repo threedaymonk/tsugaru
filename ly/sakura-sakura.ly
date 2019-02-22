@@ -18,7 +18,7 @@ song = {
   f'^\first g'^\first
   af'^\second g'^\first
   f' g'8^\third f' \hajiki
-  df'4\2^\second r
+  <df'\2>4^\second r
 
   c'4 af^\first
   c' df'^\first
@@ -28,7 +28,7 @@ song = {
   f'^\first g'^\first
   af'^\second g'^\first
   f' g'8 f' \hajiki
-  df'4\2^\second r
+  <df'\2>4^\second r
 
   c'4 af^\first
   c' df'^\first
@@ -42,7 +42,7 @@ song = {
 
   bf^\first c'
   df'^\first r
-  g'8^\third f' \hajiki df'4\2
+  g'8^\third f' \hajiki <df'\2>4
   <g c'>2 \fermata
 }
 

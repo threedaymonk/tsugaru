@@ -43,7 +43,7 @@ song = {
     g8 c' \oshi d' d' \sukui
     \tuplet 3/2 { ef'8 d' \hajiki c' \hajiki } c' c' \sukui
 
-    <g d'>4 <g ef'>^\second
+    <g d'>4 d'8 \sukui <g ef'>^\second
     <g ef'>4 <g g'>^\second
     <g g'>4 c'8 d'
     \tuplet 3/2 { ef'8 d' \hajiki c' \hajiki } c' c' \sukui

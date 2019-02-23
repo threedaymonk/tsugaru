@@ -4,6 +4,7 @@
 \header {
   title = "さくらさくら"
   subtitle = "Sakura Sakura"
+  composer = "古歌"
   meter = "2/4 二上り"
 }
 
@@ -46,7 +47,7 @@ song = {
   <3\2> i <0\3>
   <1> i r
   <6>8 iii <4> ha <5\2>4
-  <0\2 0\3>2 \fermata
+  <0\2 0\3>2
 %}
 
 }

@@ -4,6 +4,7 @@
 \header {
   title = "さくらさくら"
   subtitle = "Sakura Sakura"
+  composer = "古歌"
   meter = "2/4 二上り"
 }
 
@@ -43,7 +44,7 @@ song = {
   bf^\first c'
   df'^\first r
   g'8^\third f' \hajiki <df'\2>4
-  <g c'>2 \fermata
+  <g c'>2
 }
 
 \score {

@@ -1,11 +1,24 @@
-\include "pre.ly"
+\version "2.18.2"
+\include "shamisen.ly"
 \language "english"
+
+#(set-global-staff-size 24)
+
+\paper{
+  #(set-paper-size "a4")
+  #(define fonts
+    (set-global-fonts
+     #:roman "IPAexGothic"
+     #:factor (/ staff-height pt 20) ; unnecessary if the staff size is default
+    ))
+}
 
 \header {
   title = "黒石よされ節"
   subtitle = "Kuroishi Yosare Bushi"
   composer = "青森県"
   meter = "2/4 二上り"
+  tagline = "https://shamisen.rocks – Revision REVISION"
 }
 
 song = {

@@ -15,12 +15,12 @@ song = {
 
   \repeat volta 2 {
     <g d'>4 <g ef'>
-    <g d'>8 d' \sukui \tuplet 3/2 { ef' d' \hajiki c' \hajiki } 
+    <g d'>8 d' \sukui \tuplet 3/2 { ef' d' \hajiki c' \hajiki }
     g8 c' \oshi g c' \oshi
 
     <g d'>4 d'8 \sukui <g d'>
     <g ef'>4 <g ef'>
-    <g d'>8 d' \sukui \tuplet 3/2 { ef' d' \hajiki c' \hajiki } 
+    <g d'>8 d' \sukui \tuplet 3/2 { ef' d' \hajiki c' \hajiki }
     g8 c' \oshi g c' \oshi
 
     <g d'>4( g'8) \sukui <g g'>
@@ -52,12 +52,12 @@ song = {
   }
 
   <g d'>4 <g ef'>
-  <g d'>8 d' \sukui \tuplet 3/2 { ef' d' \hajiki c' \hajiki } 
+  <g d'>8 d' \sukui \tuplet 3/2 { ef' d' \hajiki c' \hajiki }
   g8 c' \oshi g c' \oshi
 
   <g d'>4 d'8 \sukui <g d'>
   <g ef'>4 <g ef'>
-  <g d'>8 d' \sukui \tuplet 3/2 { ef' d' \hajiki c' \hajiki } 
+  <g d'>8 d' \sukui \tuplet 3/2 { ef' d' \hajiki c' \hajiki }
   g8 c' \oshi g c' \oshi
   <g d'>2
 

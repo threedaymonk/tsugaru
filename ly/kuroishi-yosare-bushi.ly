@@ -64,6 +64,8 @@ song = {
   g8. f16 g8. <c g c'>16
 
   <c g c'>2 \fermata
+
+  \bar "|."
 }
 
 \score {

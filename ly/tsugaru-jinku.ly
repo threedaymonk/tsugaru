@@ -65,6 +65,8 @@ song = {
 
   c'8 c' \sukui c bf
   <c g c'>2
+
+  \bar "|."
 }
 
 \score {

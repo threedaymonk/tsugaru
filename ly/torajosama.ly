@@ -61,6 +61,8 @@ song = {
   \trtr { f'16 ef' \hajiki c' \sukui c' \hajiki } c'8 bf
   c'4 c8 bf
   <g c'>4 r
+
+  \bar "|."
 }
 
 \score {

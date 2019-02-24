@@ -45,6 +45,8 @@ song = {
   df'^\first r
   g'8^\third f' \hajiki <df'\2>4
   <g c'>2
+
+  \bar "|."
 }
 
 \score {

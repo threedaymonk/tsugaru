@@ -60,6 +60,8 @@ song = {
   <g d'>8 d' \sukui \tuplet 3/2 { ef' d' \hajiki c' \hajiki } 
   g8 c' \oshi g c' \oshi
   <g d'>2
+
+  \bar "|."
 }
 
 \score {

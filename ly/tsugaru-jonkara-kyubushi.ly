@@ -102,6 +102,8 @@ song = {
   \trtr \tuplet 3/2 { f'8 ef' \hajiki c' \hajiki } c' bf
   <c'\2>4^\third <c c'\2 c'>8 <c c'\2 c'>
   <c c'\2 c'>2
+
+  \bar "|."
 }
 
 \score {

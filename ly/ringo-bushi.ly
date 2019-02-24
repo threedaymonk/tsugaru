@@ -69,6 +69,8 @@ song = \relative c {
   <g g,>8 <g g,> r af^\second
   g f df\2 f
   <g g,>2
+
+  \bar "|."
 }
 
 \score {

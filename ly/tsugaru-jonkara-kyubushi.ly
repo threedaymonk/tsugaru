@@ -26,19 +26,19 @@ song = {
 
   r4 ef8 f^\third
   g4 <c'\2>8^\third <c'\2> \sukui
-  \trtr \tuplet 3/2 { <c'\2>8 bf \hajiki g \hajiki } g bf \sukui
+  \tuplet 3/2 { \trtr { <c'\2>8 bf \hajiki g \hajiki } } g bf \sukui
   c'4 f'8^\third f' \sukui
-  \trtr \tuplet 3/2 { f'8 ef' \hajiki c' \hajiki } c' bf
+  \tuplet 3/2 { \trtr { f'8 ef' \hajiki c' \hajiki } } c' bf
   <c'\2>4^\third \trtr { <c'\2>16 bf \hajiki g \sukui g \hajiki }
 
   g4 bf8 f^\third
   g4 \trtr { f16 ef \hajiki c \sukui c \hajiki }
   c4 ef8 f^\third
   g4 <c'\2>8^\third <c'\2> \sukui
-  \trtr \tuplet 3/2 { <c'\2>8 bf \hajiki g \hajiki } g bf \sukui
+  \tuplet 3/2 { \trtr { <c'\2>8 bf \hajiki g \hajiki } } g bf \sukui
   c'4 f'8^\third f' \sukui
 
-  \trtr \tuplet 3/2 { f'8 ef' \hajiki c' \hajiki } c' bf
+  \tuplet 3/2 { \trtr { f'8 ef' \hajiki c' \hajiki } } c' bf
   <c'\2>4^\third f'8 ef'16 \sukui ef' \hajiki
   c'8 ef' \uchi c' bf
   <c'\2>4^\third <c c'\2 c'>8 <c c'\2 c'>
@@ -48,16 +48,16 @@ song = {
     <c c'\2 c'>4 <c c'\2 c'>
 
     <c c'\2 c'>4 c'8 f'^\third \sukui
-    \trtr \tuplet 3/2 { f'8 ef' \hajiki c' \hajiki } c' bf
+    \tuplet 3/2 { \trtr { f'8 ef' \hajiki c' \hajiki } } c' bf
     <c'\2>4^\third \trtr { <c'\2>16 bf \hajiki g \sukui g \hajiki }
     g4 bf8 f^\third
     g4 \trtr { f16 ef \hajiki c \sukui c \hajiki }
     c4 ef8 f^\third
 
     g4 <c'\2>8^\third <c'\2> \sukui
-    \trtr \tuplet 3/2 { <c'\2>8 bf \hajiki g \hajiki } g bf \sukui
+    \tuplet 3/2 { \trtr { <c'\2>8 bf \hajiki g \hajiki } } g bf \sukui
     c'4 f'8^\third f' \sukui
-    \trtr \tuplet 3/2 { f'8 ef' \hajiki c' \hajiki } c' bf
+    \tuplet 3/2 { \trtr { f'8 ef' \hajiki c' \hajiki } } c' bf
     <c'\2>4^\third f'8 ef'16 \sukui ef' \hajiki
     c'8 ef' \uchi c' bf
 
@@ -79,10 +79,10 @@ song = {
     <c g c'>4 r8 <c g c'>8
     <c g c'>4 ef8 f^\third
     g4 <c'\2>8^\third <c'\2> \sukui
-    \trtr \tuplet 3/2 { <c'\2>8 bf \hajiki g \hajiki } g bf \sukui
+    \tuplet 3/2 { \trtr { <c'\2>8 bf \hajiki g \hajiki } } g bf \sukui
 
     c'4 f'8^\third f' \sukui
-    \trtr \tuplet 3/2 { f'8 ef' \hajiki c' \hajiki } c' bf
+    \tuplet 3/2 { \trtr { f'8 ef' \hajiki c' \hajiki } } c' bf
     <c'\2>4^\third <c c'\2 c'>8 <c c'\2 c'>
     <c c'\2 c'>4 r8 <c c'\2 c'>8
     <c c'\2 c'>4 c8 bf \oshi
@@ -93,7 +93,7 @@ song = {
     c''4 c''8 bf' \sukui
     g'4 f'8 ef' \sukui
     f'4^\third c'8 c' \sukui
-    \trtr \tuplet 3/2 { <c'\2>8 bf \hajiki g \hajiki } g bf \sukui
+    \tuplet 3/2 { \trtr { <c'\2>8 bf \hajiki g \hajiki } } g bf \sukui
 
     <c'\2>4^\third g8 ef' \oshi
     f'4 g'8 bf'^\third \sukui
@@ -102,17 +102,17 @@ song = {
     <c'\2>4^\third f'8^\third ef' \sukui
     f'4^\third f'8 f' \sukui
 
-    \trtr \tuplet 3/2 { f'8 ef' \hajiki c' \hajiki } c' bf
+    \tuplet 3/2 { \trtr { f'8 ef' \hajiki c' \hajiki } } c' bf
     <c'\2>4^\third <c c'\2 c'>8 <c c'\2 c'>
     <c c'\2 c'>4 r8 <c c'\2 c'>8
   }
 
   <c c'\2 c'>4 <c c'\2 c'>
   <c c'\2 c'>4 c'8 f'^\third \sukui
-  \trtr \tuplet 3/2 { f'8 ef' \hajiki c' \hajiki } c' bf
+  \tuplet 3/2 { \trtr { f'8 ef' \hajiki c' \hajiki } } c' bf
 
   <c'\2>4 c'8 f'^\third \sukui
-  \trtr \tuplet 3/2 { f'8 ef' \hajiki c' \hajiki } c' bf
+  \tuplet 3/2 { \trtr { f'8 ef' \hajiki c' \hajiki } } c' bf
   <c'\2>4^\third <c c'\2 c'>8 <c c'\2 c'>
   <c c'\2 c'>2
 

@@ -18,7 +18,7 @@
   subtitle = "Hyakuman Goku Ondo"
   composer = "金沢市"
   meter = "2/4 二上り（はずんで）"
-  tagline = "https://shamisen.rocks – Revision REVISION"
+  tagline = "https://shamisen.space – Revision REVISION"
 }
 
 partA = {

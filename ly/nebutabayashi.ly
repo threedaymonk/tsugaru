@@ -87,6 +87,10 @@ partB = {
   g4 r
 }
 
+\layout {
+  \context { \Score \remove "Bar_number_engraver" }
+}
+
 \score {
   <<
     \new TabStaff {

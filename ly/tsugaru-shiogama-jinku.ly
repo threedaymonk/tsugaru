@@ -92,6 +92,10 @@ song = {
   \bar "|."
 }
 
+\layout {
+  \context { \Score \remove "Bar_number_engraver" }
+}
+
 \score {
   <<
     \new TabStaff {

@@ -21,6 +21,10 @@
   tagline = "https://shamisen.space – Revision REVISION"
 }
 
+\layout {
+  \context { \Score \remove "Bar_number_engraver" }
+}
+
 \score {
   \header { piece = "Ⅰ" }
   \new TabStaff {

@@ -21,14 +21,10 @@
   tagline = "https://shamisen.space – Revision REVISION"
 }
 
-song = {
-}
-
 \score {
   \new TabStaff {
     \set TabStaff.stringTunings = #niagariTuning
     \shamisenNotation
-    \song
     \time 2/4
 
     \repeat unfold 2 {

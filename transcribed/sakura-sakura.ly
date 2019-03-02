@@ -18,7 +18,7 @@
   subtitle = "Sakura Sakura"
   composer = "古歌"
   meter = "2/4 二上り"
-  tagline = "https://shamisen.space – Revision REVISION"
+  tagline = "https://shamisen.space – Version REVISION"
 }
 
 \layout {

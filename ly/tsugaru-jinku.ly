@@ -18,7 +18,7 @@
   subtitle = "Tsugaru Jinku"
   composer = "青森県"
   meter = "2/4 二上り（はずんで）"
-  tagline = "https://shamisen.space – Revision REVISION"
+  tagline = "https://shamisen.space – Version REVISION"
 }
 
 \layout {

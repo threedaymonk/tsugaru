@@ -2,7 +2,7 @@
 \include "shamisen.ly"
 \language "english"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 22)
 
 \paper{
   #(set-paper-size "a4")

@@ -1,6 +1,6 @@
 TRANSCRIBED = $(wildcard transcribed/*.ly)
 TO_CONVERT = $(patsubst transcribed/%.ly,ly/%.ly,$(TRANSCRIBED))
-SRCS = $(wildcard ly/*.ly)
+SRCS = $(wildcard ly/*.ly) $(TO_CONVERT)
 PDFS = $(patsubst ly/%.ly,publish/%.pdf,$(SRCS))
 LYS = $(patsubst ly/%.ly,publish/%.ly,$(SRCS))
 

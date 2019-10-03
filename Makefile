@@ -23,3 +23,7 @@ publish/%.ly: ly/%.ly
 publish/%.pdf: publish/%.ly lilypond-shamisen/shamisen.ly
 	lilypond --include lilypond-shamisen --pdf --output .$*.tmp $<
 	mv .$*.tmp.pdf $@
+
+lilypond-shamisen/shamisen.ly:
+	git submodule init
+	git submodule update

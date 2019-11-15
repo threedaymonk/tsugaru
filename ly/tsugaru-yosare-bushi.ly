@@ -48,158 +48,158 @@ inlineMarker =
      \skip 8
    #})
 
-taiko = {
+taiko = \relative c {
   c8 ef f
   bf f bf
   f \trtr { f16 ef \hajiki c \sukui c \hajiki }
   c8 ef f
 
-  bf \trtr { <c'\2>16 bf \hajiki g \sukui g \hajiki }
-  bf8 <c'\2> ef' \oshi
-  <c'\2> <c'\2> <c'\2> \sukui
-  <c'\2> <c'\2> <c'\2> \sukui
+  bf \trtr { <c\2>16 bf \hajiki g \sukui g \hajiki }
+  bf8 <c\2> ef \oshi
+  <c\2> <c\2> <c\2> \sukui
+  <c\2> <c\2> <c\2> \sukui
 
-  c'16 bf <c'\2>8 <c'\2> \sukui
-  <c'\2>16 bf \hajiki <c'\2>8 <c'\2> \sukui
-  <c c'\2 c'>8 <c c'\2 c'>4
+  c16 bf <c\2>8 <c\2> \sukui
+  <c\2>16 bf \hajiki <c\2>8 <c\2> \sukui
+  <c, c'\2 c>8 <c c'\2 c>4
 }
 
-maeuta = {
+maeuta = \relative c {
   c8 <c'\2> bf \sukui
   f g ef' \oshi
-  f' g' bf' \sukui
-  c'' c'' c'' \sukui
+  f g bf \sukui
+  c c c \sukui
 
-  bf' <g'\2> bf'
-  c'' c'' c'' \sukui
-  d'' c'' c'' \sukui
-  d''16 d'' \sukui c''8 c'' \sukui
+  bf <g\2> bf
+  c c c \sukui
+  d c c \sukui
+  d16 d \sukui c8 c \sukui
 
-  d'' c'' c'' \sukui
-  d'' c'' c'' \sukui
-  bf' g' f' \sukui
-  <c c'\2 c'>8 <c c'\2 c'>4
+  d c c \sukui
+  d c c \sukui
+  bf g f \sukui
+  <c, c'\2 c>8 <c c'\2 c>4
 }
 
-sectionEnd = {
-  c8 bf' c'' \sukui
-  bf' bf' c'' \sukui
-  bf'16 bf' \hajiki g'8 f' \sukui
-  g'8 g' f' \sukui
+sectionEnd = \relative c {
+  c8 bf'' c \sukui
+  bf bf c \sukui
+  bf16 bf \hajiki g8 f \sukui
+  g8 g f \sukui
 
-  g' \trtr { f'16 ef' \hajiki c' \sukui c' \hajiki }
-  g'16 g' \sukui \trtr { f' ef' \hajiki c' \sukui c' \hajiki }
-  g'16 g' \sukui \trtr { f' ef' \hajiki c' \sukui c' \hajiki }
+  g \trtr { f16 ef \hajiki c \sukui c \hajiki }
+  g'16 g \sukui \trtr { f ef \hajiki c \sukui c \hajiki }
+  g'16 g \sukui \trtr { f ef \hajiki c \sukui c \hajiki }
   \repeat percent 2 {
-    c'16 ef' \hajiki \trtr { c' ef' \hajiki c' \sukui ef' \hajiki }
+    c16 ef \hajiki \trtr { c ef \hajiki c \sukui ef \hajiki }
   }
 
-  c'16 bf <c'\2>8 <c'\2> \sukui
-  <c'\2>16 bf \hajiki <c'\2>8 <c'\2> \sukui
-  <c c'\2 c'>8 <c c'\2 c'>4
+  c16 bf <c\2>8 <c\2> \sukui
+  <c\2>16 bf \hajiki <c\2>8 <c\2> \sukui
+  <c, c'\2 c>8 <c c'\2 c>4
 }
 
-honutaI = {
+honutaI = \relative c {
   c8 <c'\2> bf \sukui
   f g ef' \oshi
-  f' g' bf' \sukui
-  c'' c'' c'' \sukui
+  f g bf \sukui
+  c c c \sukui
 
-  d'' c'' c'' \sukui
-  bf'16 bf' \hajiki g'8 f' \sukui
-  g'16 g' \sukui \trtr { f' ef' \hajiki c' \sukui c' \hajiki }
-  <c'\2>8 <c'\2> <c'\2> \sukui
+  d c c \sukui
+  bf16 bf \hajiki g8 f \sukui
+  g16 g \sukui \trtr { f ef \hajiki c \sukui c \hajiki }
+  <c\2>8 <c\2> <c\2> \sukui
 
-  <c'\2>16( <d'\2>) \trtr { <c'\2> bf \hajiki g \sukui g \hajiki }
+  <c\2>16( <d\2>) \trtr { <c\2> bf \hajiki g \sukui g \hajiki }
   f8 g g \sukui
-  c <c'\2> ef' \oshi
-  f' g' bf' \sukui
+  c, <c'\2> ef \oshi
+  f g bf \sukui
 
-  c'' c'' c'' \sukui
-  bf'16 bf' \hajiki g'8 f' \sukui
-  g' \trtr { f'16 ef' \hajiki c' \sukui c' \hajiki }
-  <c'\2>8 <c'\2> <c'\2> \sukui
+  c c c \sukui
+  bf16 bf \hajiki g8 f \sukui
+  g \trtr { f16 ef \hajiki c \sukui c \hajiki }
+  <c\2>8 <c\2> <c\2> \sukui
 
-  <c'\2>16( <d'\2>) \trtr { <c'\2> bf \hajiki g \sukui g \hajiki }
+  <c\2>16( <d\2>) \trtr { <c\2> bf \hajiki g \sukui g \hajiki }
   f8 g g \sukui
-  c8 <c'\2> bf \sukui
+  c,8 <c'\2> bf \sukui
   f g ef' \oshi
 
-  f' g' bf' \sukui
-  c'' c'' c'' \sukui
-  d'' c'' c'' \sukui
-  bf' <g'\2> c''
+  f g bf \sukui
+  c c c \sukui
+  d c c \sukui
+  bf <g\2> c
 
-  bf' g' g' \sukui
-  f' <d'\2> f'
-  bf' g' g' \sukui
-  f' ef' f'
+  bf g g \sukui
+  f <d\2> f
+  bf g g \sukui
+  f ef f
 
-  g' g' g' \sukui
+  g g g \sukui
 }
 
-honutaII = {
+honutaII = \relative c {
   c8 <c'\2> bf \sukui
   f g ef' \oshi
-  f' g' bf' \sukui
-  c'' c'' c'' \sukui
+  f g bf \sukui
+  c c c \sukui
 
-  d'' c'' c'' \sukui
-  bf'16 bf' \hajiki g'8 f' \sukui
-  g' \trtr { f'16 ef' \hajiki c' \sukui c' \hajiki }
-  c'8 <c'\2> <c'\2> \sukui
+  d c c \sukui
+  bf16 bf \hajiki g8 f \sukui
+  g \trtr { f16 ef \hajiki c \sukui c \hajiki }
+  c8 <c\2> <c\2> \sukui
 
-  <c'\2>16( <d'\2>) \trtr { <c'\2> bf \hajiki g \sukui g \hajiki }
+  <c\2>16( <d\2>) \trtr { <c\2> bf \hajiki g \sukui g \hajiki }
   f8 g g \sukui
-  c <c'\2> ef' \oshi
-  f' g' bf' \sukui
+  c, <c'\2> ef \oshi
+  f g bf \sukui
 
-  c'' c'' c'' \sukui
-  bf'16 bf' \hajiki g'8 f' \sukui
-  g' \trtr { f'16 ef' \hajiki c' \sukui c' \hajiki }
-  c'8 <c'\2> <c'\2> \sukui
+  c c c \sukui
+  bf16 bf \hajiki g8 f \sukui
+  g \trtr { f16 ef \hajiki c \sukui c \hajiki }
+  c8 <c\2> <c\2> \sukui
 
-  <c'\2>16( <d'\2>) \trtr { <c'\2> bf \hajiki g \sukui g \hajiki }
+  <c\2>16( <d\2>) \trtr { <c\2> bf \hajiki g \sukui g \hajiki }
   f8 g g \sukui
-  c <c'\2> bf \sukui
+  c, <c'\2> bf \sukui
   f g ef' \oshi
 
-  f' g' bf' \sukui
-  c'' g' g' \sukui
-  f' ef' f' \sukui
-  g' g' bf' \sukui
+  f g bf \sukui
+  c g g \sukui
+  f ef f \sukui
+  g g bf \sukui
 
-  g' f' g' \sukui
-  f'16 ef' \hajiki c'8 c' \sukui
-  c f' f' \sukui
-  g'16 g' \hajiki g'8 g' \sukui
+  g f g \sukui
+  f16 ef \hajiki c8 c \sukui
+  c, f' f \sukui
+  g16 g \hajiki g8 g \sukui
 }
 
-atouta = {
+atouta = \relative c {
   c8 <c'\2> bf \sukui
   f g ef' \oshi
-  f' g' g' \sukui
-  c g' bf' \sukui
+  f g g \sukui
+  c,, g'' bf \sukui
 
-  c'' c'' c'' \sukui
-  bf' g' f'
-  g' g' g' \sukui
-  c g' bf' \sukui
+  c c c \sukui
+  bf g f
+  g g g \sukui
+  c,, g'' bf \sukui
 
-  c'' c'' c'' \sukui
-  d'' c'' c'' \sukui
-  bf' g' g' \sukui
-  f' ef' f'
+  c c c \sukui
+  d c c \sukui
+  bf g g \sukui
+  f ef f
 
-  bf' bf' f'
-  g' \trtr { f'16 ef' \hajiki c' \sukui c' \hajiki }
-  c'16 c' \sukui \trtr { <c'\2> bf \hajiki g \sukui g \hajiki }
+  bf bf f
+  g \trtr { f16 ef \hajiki c \sukui c \hajiki }
+  c16 c \sukui \trtr { <c\2> bf \hajiki g \sukui g \hajiki }
   f8 g g \sukui
 
-  c <c'\2> ef' \oshi
-  g' g' g' \sukui
-  f' ef' f'
-  g' g' g' \sukui
+  c, <c'\2> ef \oshi
+  g g g \sukui
+  f ef f
+  g g g \sukui
 }
 
 shamisenMusic = {

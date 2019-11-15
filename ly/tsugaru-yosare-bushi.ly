@@ -85,6 +85,7 @@ sectionEnd = {
   c8 bf' c'' \sukui
   bf' bf' c'' \sukui
   bf'16 bf' \hajiki g'8 f' \sukui
+  g'8 g' f' \sukui
 
   g' \trtr { f'16 ef' \hajiki c' \sukui c' \hajiki }
   g'16 g' \sukui \trtr { f' ef' \hajiki c' \sukui c' \hajiki }
@@ -116,7 +117,7 @@ honutaI = {
 
   c'' c'' c'' \sukui
   bf'16 bf' \hajiki g'8 f' \sukui
-  g' \sukui \trtr { f'16 ef' \hajiki c' \sukui c' \hajiki }
+  g' \trtr { f'16 ef' \hajiki c' \sukui c' \hajiki }
   <c'\2>8 <c'\2> <c'\2> \sukui
 
   <c'\2>16( <d'\2>) \trtr { <c'\2> bf \hajiki g \sukui g \hajiki }
@@ -127,7 +128,7 @@ honutaI = {
   f' g' bf' \sukui
   c'' c'' c'' \sukui
   d'' c'' c'' \sukui
-  bf' <g'\2> bf'
+  bf' <g'\2> c''
 
   bf' g' g' \sukui
   f' <d'\2> f'

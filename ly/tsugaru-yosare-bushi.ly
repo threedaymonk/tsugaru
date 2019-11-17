@@ -67,12 +67,12 @@ taiko = \relative c {
 maeuta = \relative c {
   c8 <c'\2> bf \sukui
   f g ef' \oshi
-  f g bf \sukui
-  c c c \sukui
+  f g bf^\first \sukui
+  c^\first c c \sukui
 
   bf <g\2> bf
-  c c c \sukui
-  d c c \sukui
+  c^\first c c \sukui
+  d^\third c c \sukui
   d16 d \sukui c8 c \sukui
 
   d c c \sukui
@@ -85,9 +85,9 @@ sectionEnd = \relative c {
   c8 bf'' c \sukui
   bf bf c \sukui
   bf16 bf \hajiki g8 f \sukui
-  g8 g f \sukui
+  g8^\third g f^\first \sukui
 
-  g \trtr { f16 ef \hajiki c \sukui c \hajiki }
+  g^\third \trtr { f16^\third ef \hajiki c \sukui c \hajiki }
   g'16 g \sukui \trtr { f ef \hajiki c \sukui c \hajiki }
   g'16 g \sukui \trtr { f ef \hajiki c \sukui c \hajiki }
   \repeat percent 2 {
@@ -102,52 +102,52 @@ sectionEnd = \relative c {
 honutaI = \relative c {
   c8 <c'\2> bf \sukui
   f g ef' \oshi
-  f g bf \sukui
-  c c c \sukui
+  f g bf^\first \sukui
+  c^\first c c \sukui
 
-  d c c \sukui
-  bf16 bf \hajiki g8 f \sukui
-  g16 g \sukui \trtr { f ef \hajiki c \sukui c \hajiki }
-  <c\2>8 <c\2> <c\2> \sukui
+  d^\third c c \sukui
+  bf16 bf \hajiki g8 f^\first \sukui
+  g16^\third g \sukui \trtr { f^\third ef \hajiki c \sukui c \hajiki }
+  <c\2>8^\third <c\2> <c\2> \sukui
 
   <c\2>16( <d\2>) \trtr { <c\2> bf \hajiki g \sukui g \hajiki }
   f8 g g \sukui
   c, <c'\2> ef \oshi
-  f g bf \sukui
+  f g bf^\first \sukui
 
-  c c c \sukui
-  bf16 bf \hajiki g8 f \sukui
-  g \trtr { f16 ef \hajiki c \sukui c \hajiki }
-  <c\2>8 <c\2> <c\2> \sukui
+  c^\first c c \sukui
+  bf16 bf \hajiki g8 f^\first \sukui
+  g^\third \trtr { f16^\third ef \hajiki c \sukui c \hajiki }
+  <c\2>8^\third <c\2> <c\2> \sukui
 
   <c\2>16( <d\2>) \trtr { <c\2> bf \hajiki g \sukui g \hajiki }
   f8 g g \sukui
   c,8 <c'\2> bf \sukui
   f g ef' \oshi
 
-  f g bf \sukui
-  c c c \sukui
-  d c c \sukui
+  f g bf^\first \sukui
+  c^\first c c \sukui
+  d^\third c c \sukui
   bf <g\2> c
 
   bf g g \sukui
   f <d\2> f
-  bf g g \sukui
-  f ef f
+  bf^\third g^\first g \sukui
+  f^\first ef^\first f^\first
 
-  g g g \sukui
+  g^\first g g \sukui
 }
 
 honutaII = \relative c {
   c8 <c'\2> bf \sukui
   f g ef' \oshi
-  f g bf \sukui
-  c c c \sukui
+  f g bf^\first \sukui
+  c^\first c c \sukui
 
-  d c c \sukui
-  bf16 bf \hajiki g8 f \sukui
-  g \trtr { f16 ef \hajiki c \sukui c \hajiki }
-  c8 <c\2> <c\2> \sukui
+  d^\third c c \sukui
+  bf16 bf \hajiki g8 f^\first \sukui
+  g^\third \trtr { f16^\third ef \hajiki c \sukui c \hajiki }
+  c8 <c\2>^\third <c\2> \sukui
 
   <c\2>16( <d\2>) \trtr { <c\2> bf \hajiki g \sukui g \hajiki }
   f8 g g \sukui
@@ -164,24 +164,24 @@ honutaII = \relative c {
   c, <c'\2> bf \sukui
   f g ef' \oshi
 
-  f g bf \sukui
-  c g g \sukui
-  f ef f \sukui
-  g g bf \sukui
+  f g bf^\first \sukui
+  c^\third g g \sukui
+  f ef f^\first \sukui
+  g^\first g bf^\third \sukui
 
-  g f g \sukui
-  f16 ef \hajiki c8 c \sukui
-  c, f' f \sukui
-  g16 g \hajiki g8 g \sukui
+  g^\first f^\first g^\third \sukui
+  f16^\third ef \hajiki c8 c \sukui
+  c, f'^\first f \sukui
+  g16^\first g \hajiki g8 g \sukui
 }
 
 atouta = \relative c {
   c8 <c'\2> bf \sukui
   f g ef' \oshi
   f g g \sukui
-  c,, g'' bf \sukui
+  c,, g''^\first bf^\first \sukui
 
-  c c c \sukui
+  c^\first c c \sukui
   bf g f
   g g g \sukui
   c,, g'' bf \sukui
@@ -191,15 +191,15 @@ atouta = \relative c {
   bf g g \sukui
   f ef f
 
-  bf bf f
-  g \trtr { f16 ef \hajiki c \sukui c \hajiki }
+  bf^\third bf f^\first
+  g^\third \trtr { f16^\third ef \hajiki c \sukui c \hajiki }
   c16 c \sukui \trtr { <c\2> bf \hajiki g \sukui g \hajiki }
   f8 g g \sukui
 
   c, <c'\2> ef \oshi
   g g g \sukui
   f ef f
-  g g g \sukui
+  g^\first g g \sukui
 }
 
 shamisenMusic = {

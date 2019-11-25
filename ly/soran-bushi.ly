@@ -32,12 +32,12 @@ intro = {
   <f c'>4 bf8 bf \sukui
 
   <f c'>4 <f c'>8 r16 ef'
-  f'4 g'8^\third g' \sukui
 }
 
 shamisenMusic = {
   \intro
 
+  f'4 g'8^\third g' \sukui
   <f c'>8 <f c'>4 bf8
 
   \repeat volta 2 {
@@ -65,6 +65,7 @@ shamisenMusic = {
 
     <f c'>4 bf8 bf \sukui
     \intro
+    f'4 g'8^\third bf' \sukui
   }
 
   <f c''>4 <f c''>

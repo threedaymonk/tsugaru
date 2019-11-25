@@ -26,54 +26,54 @@
 }
 
 intro = {
-  <g c'>4 <g c'>8 r16 ef'
+  <f c'>4 <f c'>8 r16 ef'
   f'4 g'8^\third g' \sukui
-  <g c'>8 <g c'>4 <c'\2>8
-  <g c'>4 <c'\2>8 <c'\2> \sukui
+  <f c'>8 <f c'>4 bf8
+  <f c'>4 bf8 bf \sukui
 
-  <g c'>4 <g c'>8 r16 ef'
+  <f c'>4 <f c'>8 r16 ef'
   f'4 g'8^\third g' \sukui
 }
 
 shamisenMusic = {
   \intro
 
-  <g c'>8 <g c'>4 <c'\2>8
+  <f c'>8 <f c'>4 bf8
 
   \repeat volta 2 {
     \repeat percent 5 {
-      <g c'>4 <c'\2>8 <c'\2> \sukui
+      <f c'>4 bf8 bf \sukui
     }
-    <g c'>8 <g c'>4 <c'\2>8
+    <f c'>8 <f c'>4 bf8
     \repeat percent 2 {
-      <g c'>4 <c'\2>8 <c'\2> \sukui
+      <f c'>4 bf8 bf \sukui
     }
-    <g c'>4 <g c'>4
+    <f c'>4 <f c'>4
     c4 g'8^\third g' \sukui
-    <g f'>4 g'8 g' \sukui
-    <g f'>4 g'8 g' \sukui
+    <f f'>4 g'8 g' \sukui
+    <f f'>4 g'8 g' \sukui
     f' f' \sukui ef' ef' \sukui
-    <g c'>4 <c'\2>8 <g\3>^\third
-    <c'\2>8 c' \oshi ef'^\first ef'16 \sukui ef' \hajiki
+    <f c'>4 bf8 <g\3>^\third
+    bf8 c' \oshi ef'^\first ef'16 \sukui ef' \hajiki
     c'4 f'8^\third f' 
-    ef'8^\first ef'16 \sukui ef' \hajiki c'8 <c'\2>^\third
-    <g c'>4 c8 <c'\2>^\third
-    <g c'>4 g'^\third
+    ef'8^\first ef'16 \sukui ef' \hajiki c'8 bf^\third
+    <f c'>4 c8 bf^\third
+    <f c'>4 g'^\third
     g'8 g' r8 g'
     f'^\first ef' c' f'^\third
-    ef'8^\first ef'16 \sukui ef' \hajiki c'8 <c'\2>^\third
+    ef'8^\first ef'16 \sukui ef' \hajiki c'8 bf^\third
 
-    <g c'>4 <c'\2>8 <c'\2> \sukui
+    <f c'>4 bf8 bf \sukui
     \intro
   }
 
-  <g c''>4 <g c''>
-  <g bf'> <g c''>
-  <g c''>2
+  <f c''>4 <f c''>
+  <f bf'> <f c''>
+  <f c''>2
 }
 \score {
   \new TabStaff {
-    \set TabStaff.stringTunings = #niagariTuning
+    \set TabStaff.stringTunings = #honchoushiTuning
     \shamisenNotation
     \time 2/4
     \shamisenMusic
